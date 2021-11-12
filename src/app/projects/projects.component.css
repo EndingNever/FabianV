@@ -7,6 +7,8 @@
     flex-direction: row;
 }
 
+
+
 .data_list {
     /* border: 2px solid red; */
     width: 100%;
@@ -24,4 +26,9 @@ li {
 
 input:active {
     border: none;
+}
+
+.repo-title{
+    border-bottom: 2px solid rgba(0, 128, 0, 0.219);
+    color: green;
 }
