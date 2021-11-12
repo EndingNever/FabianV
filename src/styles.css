@@ -1,1 +1,27 @@
 /* You can add global styles to this file, and also import other style files */
+body { 
+    background-color: #f0f8ff;
+    font-family: 'Teko', sans-serif;
+}
+
+.headline_large_font{
+    color: #1367B0;
+    font-size: 10vw;
+}
+
+.sidenav_links > h1{
+    font-size: 55px;
+}
+
+.homepage_writeup{
+    width: 50%;
+}
+
+a{
+    text-decoration-thickness: 2px;
+    color: rgba(137, 43, 226, 0.945);
+}
+
+ a:hover{
+    color: green;
+}

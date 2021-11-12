@@ -1,0 +1,28 @@
+<div class="row mt-5 ms-4">
+  <div class="col">
+    <input type="text" placeholder="Enter GitHub Username" #username />
+    <button class="" (click)="onClick(username.value)">Submit</button>
+  </div>
+</div>
+<div class="row mt-5 ms-4">
+  <div class="col">
+    <h1>
+      Viewing
+      <span class="colorUsername"
+        ><a target="_" href="http://github.com/{{data[0]?.owner.login}}">{{data[0]?.owner.login}}</a></span
+      >
+      GitHub Repos
+    </h1>
+  </div>
+</div>
+<div class="row">
+  <div class="col-6 data_div" *ngFor="let data of data; let i = index">
+    <ul class="data_list text-wrap" *ngIf="data !== ''">
+      <li style="color: green">{{ data.name }}</li>
+      <li class="repo-text ms-3" *ngIf="data.description !== null">
+        {{ data.description }}
+      </li>
+      <!-- <li><a target="_" href={{data.html_url}}> {{data.html_url}} </a></li> -->
+    </ul>
+  </div>
+</div>

@@ -1,0 +1,27 @@
+.data_div{
+    /* border: 1px dashed purple; */
+    /* margin: 25px; */
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: row;
+}
+
+.data_list {
+    /* border: 2px solid red; */
+    width: 100%;
+    font-size: 30px;
+}
+
+.repo-text{
+    font-size: 23px;
+}
+
+
+li {
+    list-style: none;
+}
+
+input:active {
+    border: none;
+}
